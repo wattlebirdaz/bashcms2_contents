@@ -10,7 +10,7 @@ Copyright: (C) 2020 Riki Otaki
 
 
 # ドキュメント
-[sample.pdf](sample.pdf)
+[sample.pdf](dummy.pdf)
 [wikipedia](https://en.wikipedia.org/wiki/Curry)
 
 ## <span id="red"> テスト </span>
