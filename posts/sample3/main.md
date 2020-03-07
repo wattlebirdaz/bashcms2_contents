@@ -1,5 +1,5 @@
 ---
-Keywords: sample test apple
+Keywords: sample, test, apple
 Copyright: (C) 2020 Riki Otaki
 ---
 
