@@ -1,5 +1,5 @@
 ---
-Keywords: this. is, also, a, test
+Keywords: this, is, also, a, test
 Copyright: (C) 2020 Riki Otaki
 ---
 
