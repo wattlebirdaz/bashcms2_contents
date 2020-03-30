@@ -1,5 +1,5 @@
 ---
-Keywords:
+Keywords: test, this, is, good
 Copyright: (C) 2020 Riki Otaki
 ---
 
