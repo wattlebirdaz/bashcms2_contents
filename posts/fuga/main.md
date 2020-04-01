@@ -1,9 +1,9 @@
 ---
-Keywords: hogehoge
+Keywords: fuga
 Copyright: (C) 2019 Riki Otaki
 ---
 
-# title Hoge
+# title Fuga
 
 Write contents here.
 Instagram
