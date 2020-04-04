@@ -1,9 +1,9 @@
 links:
-- text: 'top'
+- text: 'Top'
   href: '/?page=top'
-- text: 'blog'
+- text: 'Blog'
   href: '/?post'
-- text: '外部サイト'
+- text: 'Links'
   href: './'
   sublinks:
   - text: 'github'
@@ -11,5 +11,7 @@ links:
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/Twitter'
+- icon: 'fa-github-square'
+  href: 'https://github.com/wattlebirdaz'
 - icon: 'fa-graduation-cap'
-  href: 'top'
+  href: 'https://rotaki.org'
