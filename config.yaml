@@ -3,5 +3,10 @@ links:
   href: '/?page=top'
 - text: 'blog'
   href: '/?post'
-- text: 'github'
-  href: 'https://github.com/wattlebirdaz'
+- text: '外部サイト'
+  href: './'
+  sublinks:
+  - text: 'github'
+    href: 'https://github.com/wattlebirdaz'
+  - text: 'google'
+    href: 'google.com'
