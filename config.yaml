@@ -1,0 +1,5 @@
+links:
+- text: 'top'
+  href: '/?page=top'
+- text: 'blog'
+  href: '/?post'
