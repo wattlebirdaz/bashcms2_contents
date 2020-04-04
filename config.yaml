@@ -8,3 +8,8 @@ links:
   sublinks:
   - text: 'github'
     href: 'https://github.com/wattlebirdaz'
+sociallinks:
+- icon: 'fa-twitter-square'
+  href: 'https://twitter.com/Twitter'
+- icon: 'fa-graduation-cap'
+  href: 'top'
