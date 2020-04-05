@@ -15,3 +15,7 @@ Copyright: (C) 2020 Riki Otaki
 ## tっぷ
 
 ### 適当
+
+```erlang
+io:format("is this working?")
+```
