@@ -25,7 +25,3 @@ print("I use python for machine learning based projects")
 ```cpp
 cout << "I use c++ for competitive programming" << endl;
 ```
-
-### Statistics
-
-$$ P(A|B) = \dfrac{P(B|A)P(A)}{P(B)} = \dfrac{P(B|A)P(A)}{\sum_{A' \in \mathcal{A}} P(B|A') P(A')}$$
