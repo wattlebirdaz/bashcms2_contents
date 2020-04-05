@@ -7,6 +7,8 @@ links:
   href: '/?page=top'
 - text: 'Blog'
   href: '/?post'
+- text: 'Profile'
+  href: '/?page=profile'
 - text: 'Links'
   href: './'
   sublinks:
