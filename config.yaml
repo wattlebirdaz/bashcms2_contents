@@ -1,3 +1,7 @@
+protocol: 'https:'
+host: 'rotaki.org'
+sitetitle: 'Riki Otaki Blog'
+sitesubtitle: 'Content Management System written in bash'
 links:
 - text: 'Top'
   href: '/?page=top'
@@ -10,7 +14,7 @@ links:
     href: 'https://github.com/wattlebirdaz'
 sociallinks:
 - icon: 'fa-twitter-square'
-  href: 'https://twitter.com/Twitter'
+  href: 'https://twitter.com/OtakiRiki'
 - icon: 'fa-github-square'
   href: 'https://github.com/wattlebirdaz'
 - icon: 'fa-graduation-cap'
