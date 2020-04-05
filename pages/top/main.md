@@ -13,7 +13,7 @@ This website is not complete (still under construction) so if you have figured o
 
 ## About me
 
-A student who lives in Tokyo who want to become an engineer who can do both software and hardware.
+A student who lives in Tokyo and wants to become an engineer who can do both software and hardware.
 Current interest is in distributed systems.
 
 ## Contact
