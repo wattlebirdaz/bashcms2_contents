@@ -25,3 +25,7 @@ print("I use python for machine learning based projects")
 ```cpp
 cout << "I use c++ for competitive programming" << endl;
 ```
+- sh/bash
+```bash
+echo "I use bash for managing this website!"
+```

@@ -8,7 +8,8 @@ Copyright: (C) 2020 Riki Otaki
 
 This is a website written in bash (about 95 percent, the rest is js, html, and css) thanks to the book "シェルスクリプト高速開発手法入門改訂2版" written by Ryuichi Ueda.
 
-This website is not complete (still under construction) so if you have figured out any bugs, please contact me.
+This website is not complete (still under construction) so if you have figured out any bugs (don't attack and), please contact me or leave an [issue](https://github.com/wattlebirdaz/bashcms2/issues/new) 
+
 
 ## About me
 
