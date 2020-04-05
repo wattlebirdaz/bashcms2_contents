@@ -3,7 +3,7 @@ Keywords: profile
 Copyright: (C) 2020 Riki Otaki
 ---
 
-## About me
+# About me
 
 Hi, I am Riki.
 Currently an junior (3rd year) undergraduate at The University of Tokyo, Department of Aeronautics and Astronautics.
