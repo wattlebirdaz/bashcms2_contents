@@ -13,37 +13,38 @@ Currently an junior (3rd year) undergraduate at The University of Tokyo, Departm
 
 ### Programming
 
-- erlang
+#### erlang
 ```erlang
 io:format("I use erlang for building distirbuted systems")
 ```
 
-- python3 
+#### python3 
 ```python
 print("I use python for machine learning based projects")
 ```
-  - [Trainig mario on stage 1-1 by reinforcement learning](https://github.com/wattlebirdaz/geql) 
-   After a few trials...
-   <video width="320" height="240" controls="controls">
-       <source src="./mario242.mp4" type="video/mp4">
-    </video>
-    After around 8k trials...
-    <video width="320" height="240" controls="controls">
-        <source src="./mario2919.mp4" type="video/mp4">
-    </video>
-    After more than 20k trials...
-    <video width="320" height="240" controls="controls">
-        <source src="./mario3161.mp4" type="video/mp4">
-    </video>
-  - [Graph Neural Net Implementation](https://github.com/wattlebirdaz/GNN)
+- [Trainig mario on stage 1-1 by reinforcement learning](https://github.com/wattlebirdaz/geql) 
+After a few trials...
+<video width="320" height="240" controls="controls">
+<source src="./mario242.mp4" type="video/mp4">
+        </video>
+        After around 8k trials...
+        <video width="320" height="240" controls="controls">
+            <source src="./mario2919.mp4" type="video/mp4">
+</video>
+        After more than 20k trials...
+        <video width="320" height="240" controls="controls">
+            <source src="./mario3161.mp4" type="video/mp4">
+</video>
+
+- [Graph Neural Net Implementation](https://github.com/wattlebirdaz/GNN)
  
-- c/c++
+#### c/c++
 ```cpp
 cout << "I use c++ for competitive programming" << endl;
 ```
-  - AtCoder : [lagomnist](https://atcoder.jp/users/lagomnist) (Highest Rating 1025)
+- AtCoder : [lagomnist](https://atcoder.jp/users/lagomnist) (Highest Rating 1025)
  
-- sh/bash
+#### sh/bash
 ```bash
 echo "I use bash for managing this website!"
 ```
