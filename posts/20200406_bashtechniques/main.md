@@ -79,3 +79,32 @@ rm -rf ./$fldoer
 If you execute this code without the intention of deleting everything in your current directory, you are screwed.
 This is because shell script is not kind enough to stop for you to fix your typo. It will read the `$fldoer` as a null value and keep executing, which means it will execute `rm -rf ./$fldoer` as `rm -rf ./`.
 This is where the -u option shows its power. Having `set -u`, when it detects an undefined value, the command will stop and exit with a non-zero status. You can use it with the `set -e` to prevent the script from executing the rest.
+
+```bash
+#!/bin/bash
+set -eu
+folder=temp
+rm -rf ./$fldoer
+```
+
+```
+./test.sh: line 4: fldoer: unbound variable
+```
+
+### set -x
+The -x option prints the command before executing. It prints the command as standard error, which will be useful for debugging. Note that the arguments in the command will be expanded before printed.
+
+```bash
+#!/bin/bash
+set -x
+foo=1
+bar=2
+echo $foo $bar
+```
+
+```
++ foo=1
++ bar=2
++ echo 1 2
+1 2
+```
