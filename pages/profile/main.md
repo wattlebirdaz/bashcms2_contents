@@ -24,17 +24,17 @@ print("I use python for machine learning based projects")
 ```
 - [Trainig mario on stage 1-1 by reinforcement learning](https://github.com/wattlebirdaz/geql) 
 After a few trials...
-<video width="240" height="240" controls="controls">
-    <source src="https://rotaki.org/pages/profile/mario242.mp4" type="video/mp4">
-</video>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/WDrmvg9EIt">pic.twitter.com/WDrmvg9EIt</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036290232496128?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 After around 8k trials...
-<video width="240" height="240" controls="controls">
-    <source src="https://rotaki.org/pages/profile/mario2914.mp4" type="video/mp4">
-</video>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FkGM2xI9lS">pic.twitter.com/FkGM2xI9lS</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036648174452736?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
 After more than 20k trials...
-<video width="240" height="240" controls="controls">
-    <source src="https://rotaki.org/pages/profile/mario3161.mp4" type="video/mp4">
-</video>
+
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/I8c0kpTKb2">pic.twitter.com/I8c0kpTKb2</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036687626067974?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 - [Graph Neural Net Implementation](https://github.com/wattlebirdaz/GNN)
  
