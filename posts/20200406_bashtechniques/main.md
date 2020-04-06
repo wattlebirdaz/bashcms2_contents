@@ -14,7 +14,7 @@ When writing complicated bash scripts with lots of seds and awks connected with 
 Here I'll explain the meaning of the options.
 
 ### `set -e`
-The -e option will cause the script to exit immediately when a command fails. If -e is unset, the script will continue to execute the rest.
+The -e option will cause the script to exit immediately when a command fails, i.e exit with a non-zero status code. If -e is unset, the script will continue to execute the rest.
   
 ```bash
 #!/bin/bash
@@ -24,7 +24,7 @@ echo "test"
 ```
 Execting the script above will return `./test.sh: line 3: foo: command not found` and will not print "test" because the script is stopped at line 3. (I named the script `test.sh`)
 
-The exception of this is when a command that is failing is connected to a true statement with a pipe `| true`. A true statement here means a command that exits with a zero status.
+The exception of this is when a command that is failing is connected to a true statement with a pipe `| true`. A true statement here means a command that exits with a status code of zero.
 For example, the output of the following will not only be `./test.sh: line 3: foo: command not found` but also `test` by executing the line after foo. 
 
 ```bash
@@ -51,7 +51,7 @@ set -e
 foo | echo "test"
 ```
 
-As you can see, `set -e` is far from enough. Usually, a pipeline will not stop when the faliing command is in the middle of the pipeline because `set -e` only looks at the exit code of the last command in the pipeline. 
+As you can see, `set -e` is far from enough in terms of debugging. Usually, a pipeline will not stop when the faliing command is in the middle of the pipeline because `set -e` only looks at the exit code of the last command in the pipeline. 
 
 ### `set -o pipefail`
 This is where `set -o pipeline` comes in. This will modify the exit status of the last command of the pipeline to:
@@ -164,7 +164,7 @@ When you have no idea which command in the pipeline is causing the bug, you can 
 !/bin/bash
 echo {A..Z} | sed 's; ;;g' | tee ./logfile | rev
 ```
-output
+stdout
 ```bash
 ZYXWVUTSRQPONMLKJIHGFEDCBA
 ```
