@@ -23,7 +23,7 @@ io:format("I use erlang for building distirbuted systems")
 ```python
 print("I use python for machine learning based projects")
 ```
-- Trainig Super Mario on World 1-1 by reinforcement learning (Group project at Uppsala University, Natural Computation Methods for Machine Learning 2019.5) [src](https://github.com/wattlebirdaz/geql) 
+- Trainig Super Mario on World 1-1 by reinforcement learning using OpenAI gym (Group project at Uppsala University, Natural Computation Methods for Machine Learning 2019.5) [src](https://github.com/wattlebirdaz/geql) 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After a few trials... <a href="https://t.co/wKDCFV577G">pic.twitter.com/wKDCFV577G</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038694348865536?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After around 8k trials... <a href="https://t.co/qYWGsGLYWe">pic.twitter.com/qYWGsGLYWe</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038794877919233?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After more than 20k trials... <a href="https://t.co/Ts9dlvZEPr">pic.twitter.com/Ts9dlvZEPr</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038919578759168?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
@@ -55,3 +55,9 @@ echo "I use bash for managing this website!"
 - 2017.4-2020.3
   College of Arts and Sciences, The University of Tokyo (Natural Sciences I)
   東京大学前期教養学部理科一類
+
+## Work experience
+
+- 2019.7-2020.4 Murakumo Corporation
+  Software engineer internship. Research into distributed database systems.
+  Erlang / Docker
