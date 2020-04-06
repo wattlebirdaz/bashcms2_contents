@@ -34,6 +34,11 @@ set -e
 foo | true
 echo "test"
 ```
+```
+./test.sh: line 3: foo: command not found
+test
+```
+
 Some other examples which prints `test` are the following.
 ```bash
 #!/bin/bash
