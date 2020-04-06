@@ -7,9 +7,9 @@ Copyright: (C) 2020 Riki Otaki
 
 Introducing shell scripts that I found useful.
 
-## set -euxo pipefail 
+## set -euxvo pipefail 
 
-When writing complicated bash scripts with lots of seds and awks connected with pipes, having `set -euxo pipefail` at the top might alleviate the pain of debugging.
+When writing complicated bash scripts with lots of seds and awks connected with pipes, having `set -euxvo pipefail` at the top might alleviate the pain of debugging.
 
 Here I'll explain the meaning of the options.
 
@@ -91,8 +91,9 @@ rm -rf ./$fldoer
 ./test.sh: line 4: fldoer: unbound variable
 ```
 
-### `set -x`
+### `set -x` `set -v`
 The -x option prints the command before executing. It prints the command as standard error, which will be useful for debugging. Note that the arguments in the command will be expanded before printed.
+The -v option will print the command without expanding the variables (prints as it is written). Having `set -xv` will allow you to find out which line was read and what was executed.
 
 ```bash
 #!/bin/bash
@@ -107,4 +108,67 @@ echo $foo $bar
 + bar=2
 + echo 1 2
 1 2
+```
+With the -v option.
+```bash
+#!/bin/bash
+set -vx
+foo=1
+bar=2
+echo $foo $bar
+```
+```bash
+foo=1
++ foo=1
+bar=2
++ bar=2
+echo $foo $bar
++ echo 1 2
+1 2
+```
+If you want to log them into a file you can do the following.
+
+```bash
+#!/bin/bash
+exec 2> ./logfile
+set -vx
+foo=1
+bar=2
+echo $foo $bar
+```
+
+stdout
+```
+1 2
+```
+
+`cat logfile`
+```bash
+foo=1
++ foo=1
+bar=2
++ bar=2
+echo $foo $bar
++ echo 1 2
+
+```
+
+### Summary
+
+It might be too much to use all the options  -euxvo pipefail, but if you have trouble finding where the bug is hiding in your script, `set -euxvo pipefail` will be of help for sure.
+
+Other commands which are useful for finding bugs is `tee`.
+When you have no idea, which command in the pipeline is causing the bug, you can simply add `| tee fileName` between the commands. This will dump the output to the file as well as pass it to the next command. Very useful.
+
+```bash
+!/bin/bash
+echo {A..Z} | sed 's; ;;g' | tee ./logfile | rev
+```
+output
+```bash
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+```
+`cat logfile`
+```sh
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
