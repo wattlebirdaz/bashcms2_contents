@@ -15,11 +15,11 @@ Currently a junior (3rd year) undergraduate at The University of Tokyo, Departme
 
 #### Erlang OTP
 ```erlang
-io:format("I use erlang for building distirbuted systems")
+io:format("I use erlang for building distirbuted systems").
 ```
 - Simple distributed key-value database using riak-core-lite (2020.3) [src](https://github.com/wattlebirdaz/otakidb)
 
-#### python3 
+#### Python3 
 ```python
 print("I use python for machine learning based projects")
 ```
@@ -30,13 +30,13 @@ print("I use python for machine learning based projects")
 
 - Simple Graph Neural Net Implementation (2019.5) [src](https://github.com/wattlebirdaz/GNN)
  
-#### c/c++
+#### C/C++
 ```cpp
 cout << "I use c++ for competitive programming" << endl;
 ```
 - AtCoder : [lagomnist](https://atcoder.jp/users/lagomnist) (Highest Rating 1025)
  
-#### sh/bash
+#### Bash
 ```bash
 echo "I use bash for managing this website!"
 ```
