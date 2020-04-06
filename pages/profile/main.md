@@ -22,21 +22,12 @@ io:format("I use erlang for building distirbuted systems")
 ```python
 print("I use python for machine learning based projects")
 ```
-- [Trainig mario on stage 1-1 by reinforcement learning](https://github.com/wattlebirdaz/geql) 
-After a few trials...
+- Trainig mario on stage 1-1 by reinforcement learning (Group project at Uppsala University, Natural Computation Methods for Machine Learning) [src](https://github.com/wattlebirdaz/geql) 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">After a few trials... <a href="https://t.co/wKDCFV577G">pic.twitter.com/wKDCFV577G</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038694348865536?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">After around 8k trials... <a href="https://t.co/qYWGsGLYWe">pic.twitter.com/qYWGsGLYWe</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038794877919233?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">After more than 20k trials... <a href="https://t.co/Ts9dlvZEPr">pic.twitter.com/Ts9dlvZEPr</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038919578759168?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/WDrmvg9EIt">pic.twitter.com/WDrmvg9EIt</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036290232496128?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-After around 8k trials...
-
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FkGM2xI9lS">pic.twitter.com/FkGM2xI9lS</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036648174452736?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
-After more than 20k trials...
-
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/I8c0kpTKb2">pic.twitter.com/I8c0kpTKb2</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247036687626067974?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-- [Graph Neural Net Implementation](https://github.com/wattlebirdaz/GNN)
+- Simple Graph Neural Net Implementation [src](https://github.com/wattlebirdaz/GNN)
  
 #### c/c++
 ```cpp
