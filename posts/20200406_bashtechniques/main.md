@@ -39,7 +39,7 @@ echo "test"
 test
 ```
 
-Some other examples which prints `test` are the following.
+Some other examples which print `test` are the following.
 ```bash
 #!/bin/bash
 set -e
@@ -57,7 +57,7 @@ As you can see, `set -e` is far from enough. Usually, a pipeline will not stop w
 ### `set -o pipefail`
 This is where `set -o pipeline` comes in. This will modify the exit status of the last command of the pipeline to:
 
-- zero: If all commands in the pipeline fails
+- zero: If all commands in the pipeline exit successfully
 - non-zero: Other
 
 ```bash
