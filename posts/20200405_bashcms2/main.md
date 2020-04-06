@@ -14,6 +14,6 @@ Although it says, "フルスクラッチから1日でCMSを作る" (developing a
 
 Before reading this book, I had a little averison towards using shell script (especially with sed and awk), but now I feel very comfortable using them.
 
-I will try to write down the technical details of what I learned from the book on this blog as soon as possible.
+I will try to write down the technical details of what I learned from the book on this blog soon.
 
 Highly recommend reading this book if you are new to shell script and don't know where to start.
