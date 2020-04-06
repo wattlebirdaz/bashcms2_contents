@@ -14,7 +14,7 @@ When writing complicated bash scripts with lots of seds and awks connected with 
 Here I'll explain the meaning of the options.
 
 ### `set -e`
-The -e option will cause the script to exit immediately when a command fails, i.e exit with a non-zero status code. If -e is unset, the script will continue to execute the rest.
+The -e option will cause the script to exit immediately when a command fails(exits with a non-zero status code). If -e is unset, the script will continue to execute the rest.
   
 ```bash
 #!/bin/bash
