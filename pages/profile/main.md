@@ -17,17 +17,18 @@ Currently an junior (3rd year) undergraduate at The University of Tokyo, Departm
 ```erlang
 io:format("I use erlang for building distirbuted systems")
 ```
+- Simple distributed key-value database using riak-core-lite (2020.3) [src](https://github.com/wattlebirdaz/otakidb)
 
 #### python3 
 ```python
 print("I use python for machine learning based projects")
 ```
-- Trainig mario on stage 1-1 by reinforcement learning (Group project at Uppsala University, Natural Computation Methods for Machine Learning) [src](https://github.com/wattlebirdaz/geql) 
+- Trainig Super Mario on World 1-1 by reinforcement learning (Group project at Uppsala University, Natural Computation Methods for Machine Learning 2019.5) [src](https://github.com/wattlebirdaz/geql) 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After a few trials... <a href="https://t.co/wKDCFV577G">pic.twitter.com/wKDCFV577G</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038694348865536?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After around 8k trials... <a href="https://t.co/qYWGsGLYWe">pic.twitter.com/qYWGsGLYWe</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038794877919233?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After more than 20k trials... <a href="https://t.co/Ts9dlvZEPr">pic.twitter.com/Ts9dlvZEPr</a></p>&mdash; Riki Otaki (@OtakiRiki) <a href="https://twitter.com/OtakiRiki/status/1247038919578759168?ref_src=twsrc%5Etfw">April 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-- Simple Graph Neural Net Implementation [src](https://github.com/wattlebirdaz/GNN)
+- Simple Graph Neural Net Implementation (2019.5) [src](https://github.com/wattlebirdaz/GNN)
  
 #### c/c++
 ```cpp
@@ -39,6 +40,7 @@ cout << "I use c++ for competitive programming" << endl;
 ```bash
 echo "I use bash for managing this website!"
 ```
+- bash content management system (2020.4) [src](https://github.com/wattlebirdaz/bashcms2)
 
 ## Education
 
