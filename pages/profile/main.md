@@ -25,15 +25,15 @@ print("I use python for machine learning based projects")
 - [Trainig mario on stage 1-1 by reinforcement learning](https://github.com/wattlebirdaz/geql) 
 After a few trials...
 <video width="320" height="240" controls="controls">
-<source src="./mario242.mp4" type="video/mp4">
-        </video>
-        After around 8k trials...
-        <video width="320" height="240" controls="controls">
-            <source src="./mario2919.mp4" type="video/mp4">
+    <source src="https://rotaki.org/pages/profile/mario242.mp4" type="video/mp4">
 </video>
-        After more than 20k trials...
-        <video width="320" height="240" controls="controls">
-            <source src="./mario3161.mp4" type="video/mp4">
+After around 8k trials...
+<video width="320" height="240" controls="controls">
+    <source src="https://rotaki.org/pages/profile/mario2919.mp4" type="video/mp4">
+</video>
+After more than 20k trials...
+<video width="320" height="240" controls="controls">
+    <source src="https://rotaki.org/pages/profile/mario3161.mp4" type="video/mp4">
 </video>
 
 - [Graph Neural Net Implementation](https://github.com/wattlebirdaz/GNN)
