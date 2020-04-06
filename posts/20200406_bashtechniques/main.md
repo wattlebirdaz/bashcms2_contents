@@ -40,6 +40,11 @@ set -e
 foo ||  [ 1 -eq 1 ]
 echo "test"
 ```
+```bash
+#!/bin/bash
+set -e
+foo || echo "test"
+```
 
       
 
