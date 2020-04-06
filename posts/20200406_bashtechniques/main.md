@@ -78,4 +78,4 @@ rm -rf ./$fldoer
 ```
 If you execute this code without the intention of deleting everything in your current directory, you are screwed.
 This is because shell script is not kind enough to stop for you to fix your typo. It will read the `$fldoer` as a null value and keep executing, which means it will execute `rm -rf ./$fldoer` as `rm -rf ./`.
-This is where `set -u` will show its power. When it detects an undefined value, the command will stop and exit with a non-zero status. You can use it with the `set -e` to prevent the script from executing the rest.
+This is where the -u option shows its power. Having `set -u`, when it detects an undefined value, the command will stop and exit with a non-zero status. You can use it with the `set -e` to prevent the script from executing the rest.
