@@ -1,10 +1,9 @@
 ---
-Keywords: profile
+Keywords: bash
 Copyright: (C) 2020 Riki Otaki
 ---
 
-
-# Useful bash techniques
+# Useful bash techniques 1
 
 Introducing shell scripts that I found useful.
 
@@ -67,7 +66,16 @@ foo | true
 echo "test"
 ```
 
-The command above will only be printing `./test.sh: line 3: foo: command not found` because the `true` will exit with a non-zero status thanks to `-o pipefail` , which will be catched by the `set -e` option.
+The command above will only be printing `./test.sh: line 3: foo: command not found` because the `true` in the third line will exit with a non-zero status thanks to `-o pipefail` , which will be catched by the `set -e` option.
 
 ### `set -u`
 
+The -u option will treat unset variables as an error. Unset variables sometimes get very nasty. Look at the following piece of code.
+
+```bash
+folder=temp
+rm -rf ./$fldoer
+```
+If you execute this code without the intention of deleting everything in your current directory, you are screwed.
+This is because shell script is not kind enough to stop for you to fix your typo. It will read the `$fldoer` as a null value and keep executing, which means it will execute `rm -rf ./$fldoer` as `rm -rf ./`.
+This is where `set -u` will show its power. When it detects an undefined value, the command will stop and exit with a non-zero status. You can use it with the `set -e` to prevent the script from executing the rest.

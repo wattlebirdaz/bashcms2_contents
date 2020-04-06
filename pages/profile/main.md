@@ -6,14 +6,14 @@ Copyright: (C) 2020 Riki Otaki
 # About me
 
 Hi, I am Riki.
-Currently an junior (3rd year) undergraduate at The University of Tokyo, Department of Aeronautics and Astronautics.
+Currently a junior (3rd year) undergraduate at The University of Tokyo, Department of Aeronautics and Astronautics.
 
 
 ## My interest
 
 ### Programming
 
-#### erlang
+#### Erlang OTP
 ```erlang
 io:format("I use erlang for building distirbuted systems")
 ```
