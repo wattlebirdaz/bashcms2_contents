@@ -91,7 +91,7 @@ rm -rf ./$fldoer
 ./test.sh: line 4: fldoer: unbound variable
 ```
 
-### set -x
+### `set -x`
 The -x option prints the command before executing. It prints the command as standard error, which will be useful for debugging. Note that the arguments in the command will be expanded before printed.
 
 ```bash
