@@ -87,7 +87,7 @@ folder=temp
 rm -rf ./$fldoer
 ```
 
-```
+```bash
 ./test.sh: line 4: fldoer: unbound variable
 ```
 
@@ -102,7 +102,7 @@ bar=2
 echo $foo $bar
 ```
 
-```
+```bash
 + foo=1
 + bar=2
 + echo 1 2
