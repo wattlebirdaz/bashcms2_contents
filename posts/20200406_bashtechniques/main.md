@@ -22,7 +22,7 @@ set -e
 foo
 echo "test"
 ```
-Execting the script above will return `./test.sh: line 3: foo: command not found` (I name the script `test.sh`)
+Execting the script above will return `./test.sh: line 3: foo: command not found` and will not print "test" because the script is stopped at line 3. (I named the script `test.sh`)
 
 The exception of this is when a command that is failing is connected to a true statement with a pipe `| true`. A true statement here means a command that exits with a zero status.
 For example, the output of the following will not only be `./test.sh: line 3: foo: command not found` but also `test` by executing the line after foo. 
