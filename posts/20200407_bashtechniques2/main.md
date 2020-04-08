@@ -87,7 +87,7 @@ If the input **row** (or **record**) matches PATTERN1 it will execute ACTION1, P
 
 Things like regular expressions, ranges, BEGIN/END, etc will go into PATTERN. For more information look [here](https://www.gnu.org/software/gawk/manual/html_node/Pattern-Overview.html#Pattern-Overview).
 
-In Action, you can plug in what you want the program to do when the input matches the pattern. It can be expressions, control statements(if , for, while and do), compound statements and so on. For more information, look [here](https://www.gnu.org/software/gawk/manual/html_node/Action-Overview.html#Action-Overview). Note that multiple actions can be set for a pattern by putting a semicolon between them i.e `PATTERN1{ACTION1a;ACTION1b;ACTION1c;...}`
+In ACTION, you can plug in what you want the program to do when the input matches the pattern. It can be expressions, control statements(if , for, while and do), compound statements and so on. For more information, look [here](https://www.gnu.org/software/gawk/manual/html_node/Action-Overview.html#Action-Overview). Note that multiple actions can be set for a pattern by putting a semicolon between them i.e `PATTERN1{ACTION1a;ACTION1b;ACTION1c;...}`
 
 Here is a question.
 
