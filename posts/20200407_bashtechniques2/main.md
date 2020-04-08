@@ -7,7 +7,7 @@ Copyright: (C) 2020 Riki Otaki
 
 Introducing shell scripts that I found useful.
 
-Today, I'll explain some use cases of `awk`. (I will not be able to explain the command in detail so if you are interested please check out the man page. `man awk` )
+Today, I'll explain some use cases of `awk`. (I will not be able to explain the command itself in detail so if you are interested please check out the man page. `man awk` )
 
 ## Using variables in awk
 
