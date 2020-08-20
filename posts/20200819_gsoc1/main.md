@@ -43,7 +43,7 @@ GSoCに参加している組織は[こちら](https://summerofcode.withgoogle.co
 
 - アクセプト数の大学ランキングで、India Institute of Technologyが凄まじいこと、University of Tokyoが同率9位にランクインしていること。
 
-![アクセプト数の大学ランキング](images/アクセプト数の大学ランキング.png)
+![アクセプト数の大学ランキング](images/numofaccepts.png)
 
 ランキングでは全体的にアジアが多いですね。アクセプトされた人のうち10%以上がIITなのはびっくりしました。インド凄まじいですね。また、おそらく今までの年で東大がランクインしていたことはなさそうなので、今年は9位で驚きました。
 
