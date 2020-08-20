@@ -150,6 +150,3 @@ Another thing about null value is that if you add an integer to it, it will just
 2. END pattern is needed to detect the end of file. An END rule is executed only once when it has read all the lines of the file. Likewise, a BEGIN rule is executed only once before reading the first row.
 
 This is just one example of dealing with aggregate data. If you know any other ways of doing this in bash, please share.
-
-
-
