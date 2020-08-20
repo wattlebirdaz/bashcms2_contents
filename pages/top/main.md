@@ -6,9 +6,7 @@ Copyright: (C) 2020 Riki Otaki
 
 ## About this webstie
 
-This is a website written in **bash** from scratch thanks to the book "シェルスクリプト高速開発手法入門改訂2版" written by Ryuichi Ueda.
-
-This website is not complete (still under construction) so if you have figured out any bugs (don't attack and), please contact me or leave an [issue](https://github.com/wattlebirdaz/bashcms2/issues/new) 
+This is a website written in **bash** from scratch.
 
 ## Updates
 
@@ -16,9 +14,9 @@ This website is not complete (still under construction) so if you have figured o
 
 ## About me
 
-A student who lives in Tokyo and wants to become an engineer who can do both software and hardware.
-Current interest is in distributed systems. 
-For more infomation click [here](https://rotaki.org/?page=profile) 
+A student who lives in Tokyo and wants to become good at software engineering.
+
+For more infomation click [here](https://rotaki.org/?page=profile).
 
 ## Contact
 
