@@ -24,8 +24,8 @@ GSoCに参加している組織は[こちら](https://summerofcode.withgoogle.co
 
 ## どのような人が参加しているのか
 
-GSoCの参加書の詳細な統計情報は以下に掲載されています。
-66カ国から1199人の学生が参加しているそうで、そのうち77.4%が学部生です。また72.5%がCS専攻の人で、それ以外は数学系、電気系、機械系、航空宇宙系の人が参加しているそうです。
+GSoCの参加者の詳細な統計情報は以下に掲載されています。
+66カ国から1199人の学生が参加しているそうで、そのうち77.4%が学部生です。また72.5%がCS専攻の人で、それ以外は数学系、電気系、機械系、航空宇宙系の人などが参加しているそうです。
 
 [Google Summer of Code 2020 Statistics : Part1](https://opensource.googleblog.com/2020/06/google-summer-of-code-2020-statistics.html)
 [Google Summer of Code 2020 Statistics : Part2](https://opensource.googleblog.com/2020/08/google-summer-of-code-2020-statistics.html)
