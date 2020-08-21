@@ -22,12 +22,12 @@ Google Summer of Code というプログラムは、情報系の学生なら知�
 GSoCに参加している組織は[こちら](https://summerofcode.withgoogle.com/organizations/)を見ていただければわかります。
 今年は全部で199個の組織が参加しているそうです。見ているだけで少しワクワクしますね。組織のロゴをクリックすると今年選ばれたプロジェクトの概要がわかります。
 
-## 統計情報
+## どのような人が参加しているのか
 
-GSoCの詳細な統計情報は以下に掲載されています。
+GSoCの参加書の詳細な統計情報は以下に掲載されています。
+66カ国から1199人の学生が参加しているそうで、そのうち77.4%が学部生です。また72.5%がCS専攻の人で、それ以外は数学系、電気系、機械系、航空宇宙系の人が参加しているそうです。
 
 [Google Summer of Code 2020 Statistics : Part1](https://opensource.googleblog.com/2020/06/google-summer-of-code-2020-statistics.html)
-
 [Google Summer of Code 2020 Statistics : Part2](https://opensource.googleblog.com/2020/08/google-summer-of-code-2020-statistics.html)
 
 個人的に印象的なものをピックアップすると、
