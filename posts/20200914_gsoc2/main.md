@@ -14,14 +14,14 @@ My journey of GSoC began in this year's March when the organizations were announ
 Due to my university course schedules, I knew that working part-time at a company was difficult this semester so I was hoping I could work as GSoC student which allows me to work flextime.
 Like any other day, I was surfing through the list of organizations, and I found that Erlang Ecosystem Foundation was participating in GSoC, and to my surprise, one of the proposals was about riak_core_lite. I instantly knew that this was the organization worth giving a shot because I had been playing around with Erlang/riak then and this project was somewhat related to what I was working on.
 
-### man Erlang
+### `man Erlang`
 
 Erlang is a programming language with the following features:
 - Dynamically typed functional language
 - Concurrent distributed programming
 - Fault tolerance
 
-### man riak_core_lite
+### `man riak_core_lite`
 
 riak_core is a distributed systems framework that is based on the Dynamo-Style architecture. It has served as the basis of Riak KV, a highly available masterless distributed database, providing essential features for controlling the behaviour of nodes in a database cluster. riak_core_lite is an updated version of riak_core which ensures compatibility with the recent OTP version and rebar, a build tool for erlang application and release.
 
