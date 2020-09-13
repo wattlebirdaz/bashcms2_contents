@@ -50,5 +50,5 @@ The coding plan, however, did not always went well. It was hard to stick to the 
 
 ### Wrapping up
 
-To conclude, I was able to achieve most of the goals mentioned in the proposal. Undoubtedly it was one of the most exiting semester thanks to GSoC. A big thanks to my mentors Mariano Guerra, Anette Bienisia, and Albert Schimpf for helping me through out this project!
+To conclude, I was able to achieve most of the goals mentioned in the proposal. Undoubtedly it was one of the most exciting semester thanks to GSoC. A big thanks to my mentors Mariano Guerra, Anette Bienisia, and Albert Schimpf for helping me through out this project!
 
