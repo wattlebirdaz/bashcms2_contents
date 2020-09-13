@@ -38,7 +38,7 @@ After waiting for one month, around May, I got notified that I got accepted to G
 The first month was the community bonding period which was to know how the community works and set up the development environment. I introduced this GSoC project in the lighting talk session of CodeBEAM Virtual with the help of my mentors. They also prepared me a slack channel for asynchronous communication and almost once a week, we did a Google Hangout Meeting to keep track of the progress. 
 The coding period began in June. The following image tells you all about my progress during the coding period. The first few weeks I was slowly starting to make progress. My progress bottomed out in mid-July because I had to study for my exams. (I told the mentors about this in advance so it was ok though.) After the exams, I dedicated most of my time implementing the features that are left and documenting on it.
 
- <img src="../images/progress.png" width="200">
+ <img src="./images/progress.png" width="200">
  
 The technical details of my final product is [here](https://wattlebirdaz.github.io/rclref).
 
