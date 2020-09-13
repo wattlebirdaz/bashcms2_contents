@@ -42,7 +42,7 @@ The coding period began in June. The following image is a snnipet from my github
  
 The technical details of my final product is [here](https://wattlebirdaz.github.io/rclref).
 
-## Difficulties
+## What difficulties did I face
 
 I did not face many difficulties during this project. I think there are two reasons to this. One, the proposal I wrote was detailed enough that I can work on my own almost all the time. I did not have to ask my mentors what to do next and wait for response. Two, there were not many research questions that I needed to figure out during the implementation. The proposal was a simple coding plan which did not involve reading papers or creating algorithms to increase performance. This was good in the sense that I was able to focus more on translating the plan to code rather than creating the plan itself.
 
