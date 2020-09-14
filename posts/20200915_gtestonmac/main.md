@@ -164,7 +164,7 @@ Test project XXX
 Total Test time (real) =   0.48 sec
 ```
 
-If you failed to build, check if it is
+If it fails to build, check if it is
 - linking error 
     - check the path of headers and libraries
 - not a linking error
