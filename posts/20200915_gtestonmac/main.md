@@ -76,7 +76,7 @@ cmake .. # this is actually 'cmake -DCMAKE_C_COMPILER=/usr/local/bin/gcc -DCMAKE
 make
 ```
 
-Then install the headers and libraries to a local folder. I use `/usr/local/include` and `/usr/local/llb` respectively.
+Then install the headers and libraries to some local folders. I use `/usr/local/include` and `/usr/local/llb` respectively.
 
 ```sh
 sudo cp -r ./googletest/googlemock/include/gmock /usr/local/include/gmock
@@ -87,7 +87,7 @@ sudo cp ./googletest/build/lib/*.a /usr/local/lib/
 Check if your g++ compiler recognizes the path where you have put your include files.
 
 ```sh
-echo | gcc -E -Wp,-v -
+| => echo | gcc -E -Wp,-v -
 ...
 #include "..." search starts here:
 #include <...> search starts here:
