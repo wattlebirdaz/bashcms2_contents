@@ -166,8 +166,8 @@ Total Test time (real) =   0.48 sec
 
 If you failed to compile, check if it is
 - linking error 
-  - check the path of headers and libraries
+    - check the path of headers and libraries
 - not a linking error
-  - check if `clang++ test.cpp -pthread -lgtest_main -lgtest` work. If this works, then reinstall google test but this time make sure that you have set `alias cmake='cmake -DCMAKE_C_COMPILER=${YOURGCCPATH} -DCMAKE_CXX_COMPILER=${YOURG++PATH}'` before building googletest.
+    - check if `clang++ test.cpp -pthread -lgtest_main -lgtest` work. If this works, then reinstall google test but this time make sure that you have set `alias cmake='cmake -DCMAKE_C_COMPILER=${YOURGCCPATH} -DCMAKE_CXX_COMPILER=${YOURG++PATH}'` before building googletest.
 
 Next post will be about **using** googletest in cmake.
