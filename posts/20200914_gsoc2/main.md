@@ -14,7 +14,7 @@ Now that I have taken some rest, I will write a reflection post about it.
 
 My journey of GSoC began in this year's March when the organizations were announced. 
 Due to my university course schedules, I knew that working part-time at a company was difficult this semester so I was hoping I could work as GSoC student which allows me to work flextime.
-Like any other day, I was surfing through the list of organizations, and I found that Erlang Ecosystem Foundation was participating in GSoC, and to my surprise, one of the proposals was about riak_core_lite. I instantly knew that this was the organization worth giving a shot because I had been playing around with Erlang/riak then and this project was somewhat related to what I was working on.
+Like any other day, I was surfing through the list of organizations, and I found that **Erlang Ecosystem Foundation** was participating in GSoC, and to my surprise, one of the proposals was about **riak_core_lite**. I instantly knew that this was the organization worth giving a shot because I had been playing around with Erlang/riak then and this project was somewhat related to what I was working on.
 
 ### `man Erlang`
 
@@ -42,15 +42,15 @@ The coding period began in June. The following image is a snnipet from my github
 
  <img src="./images/progress.png" width="500">
  
-The technical details of my final product is [here](https://wattlebirdaz.github.io/rclref).
+**The technical details of my final product is [here](https://wattlebirdaz.github.io/rclref).**
 
 ## What difficulties did I face
 
 I did not face many difficulties during this project. I think there are two reasons to this. One, the proposal I wrote was detailed enough that I can work on my own almost all the time. I did not have to ask my mentors what to do next and wait for response. Two, there were not many research questions that I needed to figure out during the implementation. The proposal was a simple coding plan which did not involve reading papers or creating algorithms to increase performance. This was good in the sense that I was able to focus more on translating the plan to code rather than creating the plan itself.
 
-The coding plan, however, did not always went well. It was hard to stick to the schedule when I had to design a system by myself when there were no contents that I could refer to. On such occasions I had to translate a vague idea into actual code and this made me anxious whether the code is really working and whether the code is in an optimal structure. Luckily, I had set up the testing environment at an early stage of development so the former question of my anxiety could be eliminated by writing a lot of tests. However, for the latter question, I am still not sure whether my design was good or not. I feel like I need to study more on design patterns and how to write good code.
+The coding plan, however, did not always go well. It was hard to stick to the schedule when I had to design a system by myself when there were no contents that I could refer to. On such occasions I had to translate a vague idea into actual code and this made me anxious whether the code is really working and whether the code is in an optimal structure. Luckily, I had set up the testing environment at an early stage of development so the former question of my anxiety could be eliminated by writing a lot of tests. However, for the latter question, I am still not sure whether my design was good or not. I feel like I need to study more on design patterns and how to write good code.
 
 ### Wrapping up
 
-To conclude, I was able to achieve most of the goals mentioned in the proposal. Undoubtedly it was one of the most exciting semester thanks to GSoC. A big thanks to my mentors Mariano Guerra, Annette Bieniusa, and Albert Schimpf for helping me through out this project!
+To conclude, I was able to achieve most of the goals mentioned in the proposal. Undoubtedly it was one of the most exciting semester thanks to GSoC. A big thanks to my mentors **Mariano Guerra**, **Annette Bieniusa**, and **Albert Schimpf** for helping me through out this project!
 
