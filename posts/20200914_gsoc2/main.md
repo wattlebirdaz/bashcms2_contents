@@ -8,6 +8,8 @@ Copyright: (C) 2020 Riki Otaki
 Two weeks have passed since the final submit date of google summer of code 2020.
 Now that I have taken some rest, I will write a reflection post about it.
 
+ <img src="./images/gsoc.png" width="500">
+
 ## Overview
 
 My journey of GSoC began in this year's March when the organizations were announced. 
