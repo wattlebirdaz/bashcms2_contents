@@ -21,7 +21,9 @@ Copyright: (C) 2021 Riki Otaki
 
 ## SimpleDB
 
-セキュリティキャンプでは星野さんが作成してくださったDBMSの諸所の概念を説明した入門書を読みながら自作していたのですが、それだけで実装に落とし込むのは自分には難しいと感じられたため、いろいろネットを漁って自作OS本(緑)のように解説に実装が並列してあるような本は無いか探しました。すると、Hacker News[Hacker News](https://news.ycombinator.com/item?id=21793270)で[Database Design and Implementation](https://www.springer.com/gp/book/9783030338350)という本をお勧めしている人がいたので買ってみました。その本はJavaで作った教育用のDBMSであるSimpleDBを解説した本でした。内容はデータのファイルへの書き込みから、Btree-Index、Query Optimizationまで幅広く解説し実装を示しているので、手を動かしたい自分みたいな人には良いと思いました。SimpleDBのプロジェクトページは[こちら](http://www.cs.bc.edu/~sciore/simpledb/)になります。そこから最終的に出来上がるSimpleDBをダウンロードできます。
+セキュリティキャンプでは星野さんが作成してくださったDBMSの諸所の概念を説明した入門書を読みながら自作していたのですが、それだけで実装に落とし込むのは自分には難しいと感じられたため、いろいろネットを漁って自作OS本(緑)のように解説に実装が並列してあるような本は無いか探しました。すると、[Hacker News](https://news.ycombinator.com/item?id=21793270)で[Database Design and Implementation](https://www.springer.com/gp/book/9783030338350)という本をお勧めしている人がいたので買ってみました。その本はJavaで作った教育用のDBMSであるSimpleDBを解説した本でした。内容はデータのファイルへの書き込みから、Btree-Index、Query Optimizationまで幅広く解説し実装を示しているので、手を動かしたい自分みたいな人には良いと思いました。SimpleDBのプロジェクトページは[こちら](http://www.cs.bc.edu/~sciore/simpledb/)になります。そこから最終的に出来上がるSimpleDBをダウンロードできます。
+
+ <img src="./images/db.png" width="600">
 
 自分はJavaがわからないのでSimpleDBをC++で実装し直すことにしました。
 そして作ったものが[こちら](https://github.com/wattlebirdaz/simpledb)になります。2021の2月の第2週から初めておおよそ1ヶ月ちょっとかかりました。
