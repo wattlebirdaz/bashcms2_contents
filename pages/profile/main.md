@@ -10,17 +10,16 @@ Currently a senior (4th year) undergraduate at The University of Tokyo, Departme
 
 ## Programming
 
-- Erlang OTP
-  - Google Summer of Code 2020
-    - rcl_ref: riak core lite reference implementation (2020.8) [ref](https://wattlebirdaz.github.io/rclref/)
+### Erlang OTP
+- Google Summer of Code 2020, rcl_ref: riak core lite reference implementation (2020.8) [ref](https://wattlebirdaz.github.io/rclref/)
 
-- C++
-  - AtCoder(Competitive Programming) @ [lagomnist](https://atcoder.jp/users/lagomnist)
-  - simpledb (A Java based database engine rewritten in C++) (2021.3) [ref](https://github.com/wattlebirdaz/simpledb)
-  
-- Python
-- Bash
-  - bash content management system (2020.4) [src](https://github.com/wattlebirdaz/bashcms2)
+### C++
+- AtCoder(Competitive Programming) @ [lagomnist](https://atcoder.jp/users/lagomnist)
+- simpledb (A Java based database engine rewritten in C++) (2021.3) [ref](https://github.com/wattlebirdaz/simpledb)
+    
+### Python
+### Bash
+- bash content management system (2020.4) [src](https://github.com/wattlebirdaz/bashcms2)
 
 ## Education
 
