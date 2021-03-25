@@ -37,3 +37,14 @@ Javaのsynchornizedをmutex/recursive mutexを利用して実装したり, new�
 ## まとめ
 
 ソフトウェアのインフラの凄さを改めて実感しました。自作したDBMSなんて怖くて使えません。Postgresは偉大です。
+
+
+## 追記
+
+Database Design and Implementation の作者である、Edward Sciore先生に本の誤植やプログラムにあったバグなどをメールするついでに、SimpleDBをC++に移植してみたことを報告してみました。するとこんな返信が来てました。
+
+> I looked at your C++ version of my code. I have not coded in C++ for a long time, so I cannot make any serious comments about its correctness, but the coding style is very readable. Congratulations for translating it so well.
+
+嬉しかったので追記しました。
+
+
