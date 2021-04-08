@@ -25,11 +25,11 @@ Correctness of a schedule is defined by the following steps:
 2. Define _serializability_ via equivalence to _serial_ history.
 
 - Serial history
-  A history $s$ is serial if for any two transactions $t_i$ and $t_j$ in it, where $i \neq j$, all operations from $t_i$ are ordered in $s$ before all operations from $t_j$, or vice versa.
+  A history $ s $ is serial if for any two transactions $ t_i $ and $t_j$ in it, where $i \neq j$, all operations from $t_i$ are ordered in $s$ before all operations from $t_j$, or vice versa.
   
 - Equivalence
   1. We define equivalence relation $\approx$ on the set of $S$ of all schedules. This gives rise to a decomposition of $S$ into equivalence classes [] according to $\approx$:
-$$[S]_{\approx} = {[s]_{\approx}} | s \in S$$
+  $$ [S]_{\approx} = {[s]_{\approx}} | s \in S $$
   2. Those classes for which a serial schedule can be chosen as the representative will be called _serializable_.
   
 
