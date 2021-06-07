@@ -22,7 +22,7 @@ TPCはトランザクションの性能測定のやり方にいくつかのレ�
 TPC-Cの内容を大まかに説明すると, 以下のようになる.
 
 1. まずWarehouse, Item, Stock, District, Customer, History Order, NewOrder, OrderLineというレコードが入った9つのテーブルを作る. 各レコードの個数や, どのようなカラムがあるかは仕様に記述されている.
-2. それらのテーブルに対して, 5つのトランザクション(それぞれNewOrder, Payment, Delivery, OrderStatus, StockLevelという名前がついている)を実行する. これらのトランザクションは, 1で作ったテーブルに対してreadやwriteを行う. また, 計測時のそれぞれのトランザクションの割合は仕様により定まっている.
+2. それらのテーブルに対してreadやwriteを行う5つのトランザクション(それぞれNewOrder, Payment, Delivery, OrderStatus, StockLevelという名前がついている)を実行する. また, 計測時のそれぞれのトランザクションの割合は仕様により定まっている.
 3. トランザクションが1秒あたり何回commitされたかを計測し, Throughputを算出する.
 
 TPC-Cはデータベースのアカデミックベンチマークとして, [YCSB](https://github.com/brianfrankcooper/YCSB)と共によく使われている. Concurrency Control関連の論文を読めば, そのほとんどでTPC-Cを用いてパフォーマンスが計測されていることがわかる.
