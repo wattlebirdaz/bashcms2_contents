@@ -52,6 +52,4 @@ https://github.com/wattlebirdaz/tpcc-runner
 
 ## 最後に
 
-tpcc-runnerは[サイボウズ社のラボユース](https://labs.cybozu.co.jp/youth/requirements.html)という活動の一環として開発されました.
-メンターである星野さんには頻繁にお時間をとっていただき, コードレビューや実装の方針を相談させていただきました.
-心より感謝いたします.
+tpcc-runnerは[サイボウズ社のラボユース](https://labs.cybozu.co.jp/youth/requirements.html)という活動の一環として開発しました. メンターである星野さんには頻繁にお時間をとっていただき, コードレビューや実装の方針を相談させていただきました. 心より感謝いたします.
